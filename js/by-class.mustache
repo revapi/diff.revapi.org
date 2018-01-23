@@ -1,0 +1,56 @@
+{{#types}}
+  <div data-role="class" data-max-severity="{{maxSeverity}}" data-className="{{className}}"
+    data-package-name="{{packageName}}">
+    <div class="row left">
+      <span class="title-class-name">{{className}}</span>
+    </div>
+    {{#differences}}
+      <div class="row difference" data-role="difference" data-binary-severity="{{classification.BINARY}}" data-source-severity="{{classification.SOURCE}}"
+           data-semantic-severity="{{classification.SEMANTIC}}" data-max-severity="{{maxSeverity}}" data-old-module="{{oldElementModule}}" data-new-module="{{newElementModule}}">
+        <table width="100%">
+          <tbody>
+          {{#oldElement}}
+            <tr>
+              <th colspan="2">Old Element&nbsp;<small style="font-weight: normal">(module: <b>{{oldElementModule}}</b>)</small></th>
+            </tr>
+            <tr>
+              <td colspan="2" class="element">{{{oldElement}}}</td>
+            </tr>
+          {{/oldElement}}
+          {{#newElement}}
+            <tr>
+              <th colspan="2">New Element&nbsp;<small style="font-weight: normal">(module: <b>{{newElementModule}}</b>)</small></th>
+            </tr>
+            <tr>
+              <td colspan="2" class="element">{{{newElement}}}</td>
+            </tr>
+          {{/newElement}}
+          <tr>
+            <th>Description</th>
+            <td width="100%">{{description}}</td>
+          </tr>
+          <tr>
+            <th>Classification</th>
+            <td width="100%">
+              {{#classification.SOURCE}}
+                <b>Source</b>: {{classification.SOURCE}}
+              {{/classification.SOURCE}}
+              {{#classification.BINARY}}
+                , <b>Binary</b>: {{classification.BINARY}}
+              {{/classification.BINARY}}
+              {{#classification.SEMANTIC}}
+                , <b>Semantic</b>: {{classification.SEMANTIC}}
+              {{/classification.SEMANTIC}}
+            </td>
+          </tr>
+          {{#exampleUseChainInOldApi}}
+          {{/exampleUseChainInOldApi}}
+          {{#exampleUseChainInNewApi}}
+          {{/exampleUseChainInNewApi}}
+          </tbody>
+        </table>
+        <hr>
+      </div>
+    {{/differences}}
+  </div>
+{{/types}}

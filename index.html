@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+  ~ Copyright 2017 Lukas Krejci
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<html lang="en">
+  <head>
+    <title>Online API Diff Powered by Revapi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+    <script src="js/nearley.js"></script>
+    <script src="js/signature-grammar.js"></script>
+    <script src="js/app.js"></script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-3133590320590126",
+        enable_page_level_ads: true
+      });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-97953229-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+    <div class="container" id="page">
+      <div class="row middle">
+        <h1>API Diff</h1>
+      </div>
+      <div class="row middle">
+        Compare 2 versions of a Maven artifact for API differences.
+      </div>
+      <div class="row middle">
+        <div class="one-half column">
+        <input type="text" id="groupId" class="u-full-width" placeholder="Group Id" autofocus form="form"/>
+        </div>
+        <div class="one-half column">
+          <input type="text" id="artifactId" class="u-full-width" placeholder="Artifact Id" form="form"/>
+        </div>
+      </div>
+      <div class="row middle">
+        <div class="one-half column">
+          <input type="text" id="oldVersion" class="u-full-width" placeholder="Old Version" form="form"/>
+        </div>
+        <div class="one-half column">
+          <input type="text" id="newVersion" class="u-full-width" placeholder="New Version" form="form"/>
+        </div>
+      </div>
+      <div class="row middle">
+        <input id="compare" type="submit" value="Compare" class="u-full-width button-primary" form="form"/>
+      </div>
+      <div class="row middle">
+        <div id="progress">
+          <div id="spinner" class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+          </div>
+          <div id="progress-rendering-stage"></div>
+        </div>
+        <div id="not-not-all-results-shown">
+          Some differences are not shown. Use the menu in the top-left corner to change the filter settings.
+        </div>
+        <div id="results"></div>
+      </div>
+    </div>
+    <form id="form"></form>
+    <div id="menu-icon">&#9776;</div>
+    <div id="filter" class="container">
+      <div class="close" id="filter-close">&times;</div>
+      <div class="row">
+        <label>Minimum severity of changes</label>
+        <input title="severity" id="severity-value" type="range" min="0" max="3" value="2"/>
+        <div id="severity-display"></div>
+      </div>
+      <!-- The severity ordering is not yet implemented -->
+      <div class="row" style="display:none">
+        <label>Sort by</label>
+        <label for="sort1" class="filter-selection">
+          <input type="radio" name="sort" value="by-class" id="sort1" checked>Class
+        </label>
+        <label for="sort2" class="filter-selection">
+          <input type="radio" name="sort" value="by-severity" id="sort2">Severity
+        </label>
+      </div>
+      <div class="row">
+        <input type="checkbox" id="include-deps" name="include-deps" checked/>
+        <label for="include-deps">Include API from dependencies</label>
+      </div>
+      <div class="row">
+        <label>Include modules</label>
+        <div class="filter-selection" id="include-modules">Run the comparison first to see the list of the modules...</div>
+      </div>
+      <div class="row">
+        <label for="included-packages">Only Include packages</label>
+        <input class="filter-selection" style="width: 100%" type="text" id="included-packages" name="included-packages" placeholder="Comma separated for regexes for package names..."/>
+      </div>
+      <div class="row">
+        <label for="excluded-packages">Exclude packages</label>
+        <input class="filter-selection" style="width: 100%" type="text" id="excluded-packages" name="excluded-packages" placeholder="Comma separated for regexes for package names..."/>
+      </div>
+    </div>
+  </body>
+</html>

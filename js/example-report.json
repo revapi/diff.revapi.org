@@ -1,0 +1,3955 @@
+[
+  {
+    "code": "java.method.abstractMethodAdded",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean java.util.Map<K, V>::equals(java.lang.Object) @ junit.framework.JUnit4TestAdapterCache",
+    "newElementModule": "<system classpath>",
+    "description": "Abstract method was added.",
+    "attachments": {
+      "classSimpleName": "JUnit4TestAdapterCache",
+      "methodName": "equals",
+      "exampleUseChainInNewApi": "class junit.framework.JUnit4TestAdapterCache is part of the API",
+      "package": "junit.framework",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.abstractMethodAdded",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method int java.util.Map<K, V>::hashCode() @ junit.framework.JUnit4TestAdapterCache",
+    "newElementModule": "<system classpath>",
+    "description": "Abstract method was added.",
+    "attachments": {
+      "classSimpleName": "JUnit4TestAdapterCache",
+      "methodName": "hashCode",
+      "exampleUseChainInNewApi": "class junit.framework.JUnit4TestAdapterCache is part of the API",
+      "package": "junit.framework",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method void org.junit.Assert::assertArrayEquals(boolean[], boolean[])",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Assert",
+      "methodName": "assertArrayEquals",
+      "exampleUseChainInNewApi": "class org.junit.Assert is part of the API",
+      "package": "org.junit",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method void org.junit.Assert::assertArrayEquals(java.lang.String, boolean[], boolean[]) throws org.junit.internal.ArrayComparisonFailure",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Assert",
+      "methodName": "assertArrayEquals",
+      "exampleUseChainInNewApi": "class org.junit.Assert is part of the API",
+      "package": "org.junit",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method void org.junit.Assert::assertNotEquals(float, float, float)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Assert",
+      "methodName": "assertNotEquals",
+      "exampleUseChainInNewApi": "class org.junit.Assert is part of the API",
+      "package": "org.junit",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method void org.junit.Assert::assertNotEquals(java.lang.String, float, float, float)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Assert",
+      "methodName": "assertNotEquals",
+      "exampleUseChainInNewApi": "class org.junit.Assert is part of the API",
+      "package": "org.junit",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.AssumptionViolatedException",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "AssumptionViolatedException",
+      "exampleUseChainInNewApi": "class org.junit.AssumptionViolatedException is part of the API",
+      "package": "org.junit",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.numberOfParametersChanged",
+    "oldElement": "method void org.junit.experimental.categories.Categories.CategoryFilter::<init>(java.lang.Class<?>, java.lang.Class<?>)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.experimental.categories.Categories.CategoryFilter::<init>(boolean, java.util.Set<java.lang.Class<?>>, boolean, java.util.Set<java.lang.Class<?>>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The number of parameters of the method have changed.",
+    "attachments": {
+      "classSimpleName": "CategoryFilter",
+      "methodName": "<init>",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API",
+      "package": "org.junit.experimental.categories",
+      "exampleUseChainInOldApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API",
+      "elementKind": "constructor"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.visibilityReduced",
+    "oldElement": "method void org.junit.experimental.categories.Categories.CategoryFilter::<init>(java.lang.Class<?>, java.lang.Class<?>)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.experimental.categories.Categories.CategoryFilter::<init>(boolean, java.util.Set<java.lang.Class<?>>, boolean, java.util.Set<java.lang.Class<?>>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "visibility reduced",
+    "attachments": {
+      "classSimpleName": "CategoryFilter",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API",
+      "package": "org.junit.experimental.categories",
+      "oldVisibility": "public",
+      "elementKind": "constructor",
+      "newVisibility": "protected",
+      "methodName": "<init>",
+      "exampleUseChainInOldApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter::categoryFilter(boolean, java.util.Set<java.lang.Class<?>>, boolean, java.util.Set<java.lang.Class<?>>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "CategoryFilter",
+      "methodName": "categoryFilter",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter::exclude(boolean, java.lang.Class<?>[])",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "CategoryFilter",
+      "methodName": "exclude",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter::exclude(java.lang.Class<?>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "CategoryFilter",
+      "methodName": "exclude",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter::exclude(java.lang.Class<?>[])",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "CategoryFilter",
+      "methodName": "exclude",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter::include(boolean, java.lang.Class<?>[])",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "CategoryFilter",
+      "methodName": "include",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.experimental.categories.Categories.CategoryFilter org.junit.experimental.categories.Categories.CategoryFilter::include(java.lang.Class<?>[])",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "CategoryFilter",
+      "methodName": "include",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.inheritedMovedToClass",
+    "oldElement": "method java.lang.String java.lang.Object::toString() @ org.junit.experimental.categories.Categories.CategoryFilter",
+    "oldElementModule": "<system classpath>",
+    "newElement": "method java.lang.String org.junit.experimental.categories.Categories.CategoryFilter::toString()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.junit.experimental.categories.Categories.CategoryFilter'.",
+    "attachments": {
+      "classSimpleName": "CategoryFilter",
+      "newClass": "org.junit.experimental.categories.Categories.CategoryFilter",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method",
+      "methodName": "toString",
+      "oldClass": "java.lang.Object",
+      "exampleUseChainInOldApi": "class org.junit.experimental.categories.Categories.CategoryFilter is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.attributeWithDefaultAddedToAnnotationType",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.experimental.categories.Categories.ExcludeCategory::matchAny()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The annotation has a new attribute with a default value.",
+    "attachments": {
+      "classSimpleName": "ExcludeCategory",
+      "methodName": "matchAny",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.categories.Categories.ExcludeCategory is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.defaultValueAdded",
+    "oldElement": "method java.lang.Class<?> org.junit.experimental.categories.Categories.ExcludeCategory::value()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.lang.Class<?>[] org.junit.experimental.categories.Categories.ExcludeCategory::value()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Default value was added to the attribute.",
+    "attachments": {
+      "classSimpleName": "ExcludeCategory",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.categories.Categories.ExcludeCategory is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method",
+      "methodName": "value",
+      "exampleUseChainInOldApi": "@interface org.junit.experimental.categories.Categories.ExcludeCategory is part of the API",
+      "value": "{}"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.returnTypeChanged",
+    "oldElement": "method java.lang.Class<?> org.junit.experimental.categories.Categories.ExcludeCategory::value()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.lang.Class<?>[] org.junit.experimental.categories.Categories.ExcludeCategory::value()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The return type changed from 'java.lang.Class<?>' to  'java.lang.Class<?>[]'.",
+    "attachments": {
+      "classSimpleName": "ExcludeCategory",
+      "newType": "java.lang.Class<?>[]",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.categories.Categories.ExcludeCategory is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method",
+      "oldType": "java.lang.Class<?>",
+      "methodName": "value",
+      "exampleUseChainInOldApi": "@interface org.junit.experimental.categories.Categories.ExcludeCategory is part of the API"
+    },
+    "classification": {
+      "SOURCE": "POTENTIALLY_BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.attributeWithDefaultAddedToAnnotationType",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.experimental.categories.Categories.IncludeCategory::matchAny()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The annotation has a new attribute with a default value.",
+    "attachments": {
+      "classSimpleName": "IncludeCategory",
+      "methodName": "matchAny",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.categories.Categories.IncludeCategory is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.defaultValueAdded",
+    "oldElement": "method java.lang.Class<?> org.junit.experimental.categories.Categories.IncludeCategory::value()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.lang.Class<?>[] org.junit.experimental.categories.Categories.IncludeCategory::value()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Default value was added to the attribute.",
+    "attachments": {
+      "classSimpleName": "IncludeCategory",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.categories.Categories.IncludeCategory is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method",
+      "methodName": "value",
+      "exampleUseChainInOldApi": "@interface org.junit.experimental.categories.Categories.IncludeCategory is part of the API",
+      "value": "{}"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.returnTypeChanged",
+    "oldElement": "method java.lang.Class<?> org.junit.experimental.categories.Categories.IncludeCategory::value()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.lang.Class<?>[] org.junit.experimental.categories.Categories.IncludeCategory::value()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The return type changed from 'java.lang.Class<?>' to  'java.lang.Class<?>[]'.",
+    "attachments": {
+      "classSimpleName": "IncludeCategory",
+      "newType": "java.lang.Class<?>[]",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.categories.Categories.IncludeCategory is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method",
+      "oldType": "java.lang.Class<?>",
+      "methodName": "value",
+      "exampleUseChainInOldApi": "@interface org.junit.experimental.categories.Categories.IncludeCategory is part of the API"
+    },
+    "classification": {
+      "SOURCE": "POTENTIALLY_BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.runners.ParentRunner<T>::isIgnored(T) @ org.junit.experimental.categories.Categories",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Categories",
+      "methodName": "isIgnored",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.Categories is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.annotation.nowInherited",
+    "oldElement": "@interface org.junit.experimental.categories.Category",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "@interface org.junit.experimental.categories.Category",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Annotation type is now inherited.",
+    "attachments": {
+      "annotation": "@java.lang.annotation.Inherited",
+      "classSimpleName": "Category",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.categories.Category is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "@interface",
+      "annotationType": "java.lang.annotation.Inherited",
+      "exampleUseChainInOldApi": "@interface org.junit.experimental.categories.Category is part of the API"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.annotation.added",
+    "oldElement": "@interface org.junit.experimental.categories.Category",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "@interface org.junit.experimental.categories.Category",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Element newly annotated with 'org.junit.validator.ValidateWith'.",
+    "attachments": {
+      "annotation": "@org.junit.validator.ValidateWith(org.junit.experimental.categories.CategoryValidator.class)",
+      "classSimpleName": "Category",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.categories.Category is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "@interface",
+      "annotationType": "org.junit.validator.ValidateWith",
+      "exampleUseChainInOldApi": "@interface org.junit.experimental.categories.Category is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.experimental.categories.CategoryValidator",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "CategoryValidator",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.CategoryValidator is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.experimental.categories.ExcludeCategories",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "ExcludeCategories",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.ExcludeCategories is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.experimental.categories.IncludeCategories",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "IncludeCategories",
+      "exampleUseChainInNewApi": "class org.junit.experimental.categories.IncludeCategories is part of the API",
+      "package": "org.junit.experimental.categories",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.runners.ParentRunner<T>::isIgnored(T) @ org.junit.experimental.runners.Enclosed",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Enclosed",
+      "methodName": "isIgnored",
+      "exampleUseChainInNewApi": "class org.junit.experimental.runners.Enclosed is part of the API",
+      "package": "org.junit.experimental.runners",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.attributeWithDefaultAddedToAnnotationType",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.lang.Class<? extends java.lang.Throwable>[] org.junit.experimental.theories.DataPoint::ignoredExceptions()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The annotation has a new attribute with a default value.",
+    "attachments": {
+      "classSimpleName": "DataPoint",
+      "methodName": "ignoredExceptions",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.theories.DataPoint is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.attributeWithDefaultAddedToAnnotationType",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.lang.String[] org.junit.experimental.theories.DataPoint::value()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The annotation has a new attribute with a default value.",
+    "attachments": {
+      "classSimpleName": "DataPoint",
+      "methodName": "value",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.theories.DataPoint is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.annotation.added",
+    "oldElement": "@interface org.junit.experimental.theories.DataPoint",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "@interface org.junit.experimental.theories.DataPoint",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Element newly annotated with 'java.lang.annotation.Target'.",
+    "attachments": {
+      "annotation": "@java.lang.annotation.Target({java.lang.annotation.ElementType.FIELD, java.lang.annotation.ElementType.METHOD})",
+      "classSimpleName": "DataPoint",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.theories.DataPoint is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "@interface",
+      "annotationType": "java.lang.annotation.Target",
+      "exampleUseChainInOldApi": "@interface org.junit.experimental.theories.DataPoint is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.attributeWithDefaultAddedToAnnotationType",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.lang.Class<? extends java.lang.Throwable>[] org.junit.experimental.theories.DataPoints::ignoredExceptions()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The annotation has a new attribute with a default value.",
+    "attachments": {
+      "classSimpleName": "DataPoints",
+      "methodName": "ignoredExceptions",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.theories.DataPoints is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.attributeWithDefaultAddedToAnnotationType",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.lang.String[] org.junit.experimental.theories.DataPoints::value()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The annotation has a new attribute with a default value.",
+    "attachments": {
+      "classSimpleName": "DataPoints",
+      "methodName": "value",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.theories.DataPoints is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.annotation.added",
+    "oldElement": "@interface org.junit.experimental.theories.DataPoints",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "@interface org.junit.experimental.theories.DataPoints",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Element newly annotated with 'java.lang.annotation.Target'.",
+    "attachments": {
+      "annotation": "@java.lang.annotation.Target({java.lang.annotation.ElementType.FIELD, java.lang.annotation.ElementType.METHOD})",
+      "classSimpleName": "DataPoints",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.theories.DataPoints is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "@interface",
+      "annotationType": "java.lang.annotation.Target",
+      "exampleUseChainInOldApi": "@interface org.junit.experimental.theories.DataPoints is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "@interface org.junit.experimental.theories.FromDataPoints",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "FromDataPoints",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.theories.FromDataPoints is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "@interface"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method boolean org.junit.experimental.theories.ParameterSignature::canAcceptArrayType(java.lang.Class<?>)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterSignature",
+      "methodName": "canAcceptArrayType",
+      "package": "org.junit.experimental.theories",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.ParameterSignature is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.experimental.theories.ParameterSignature::canAcceptValue(java.lang.Object)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "ParameterSignature",
+      "methodName": "canAcceptValue",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.ParameterSignature is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.experimental.theories.ParameterSignature::canPotentiallyAcceptType(java.lang.Class<?>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "ParameterSignature",
+      "methodName": "canPotentiallyAcceptType",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.ParameterSignature is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedAdded",
+    "oldElement": "method java.util.List<org.junit.experimental.theories.PotentialAssignment> org.junit.experimental.theories.ParameterSupplier::getValueSources(org.junit.experimental.theories.ParameterSignature)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.util.List<org.junit.experimental.theories.PotentialAssignment> org.junit.experimental.theories.ParameterSupplier::getValueSources(org.junit.experimental.theories.ParameterSignature) throws java.lang.Throwable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method newly throws checked exceptions: java.lang.Throwable.",
+    "attachments": {
+      "exception": "java.lang.Throwable",
+      "classSimpleName": "ParameterSupplier",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.ParameterSupplier is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method",
+      "methodName": "getValueSources",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.ParameterSupplier is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.annotation.added",
+    "oldElement": "@interface org.junit.experimental.theories.ParametersSuppliedBy",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "@interface org.junit.experimental.theories.ParametersSuppliedBy",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Element newly annotated with 'java.lang.annotation.Target'.",
+    "attachments": {
+      "annotation": "@java.lang.annotation.Target({java.lang.annotation.ElementType.ANNOTATION_TYPE, java.lang.annotation.ElementType.PARAMETER})",
+      "classSimpleName": "ParametersSuppliedBy",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.theories.ParametersSuppliedBy is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "@interface",
+      "annotationType": "java.lang.annotation.Target",
+      "exampleUseChainInOldApi": "@interface org.junit.experimental.theories.ParametersSuppliedBy is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.field.serialVersionUIDUnchanged",
+    "oldElement": "field org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException.serialVersionUID",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "field org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException.serialVersionUID",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The class changed in an incompatible way with regards to serialization but the serialVersionUID field stayed unchanged. This might be ok and\/or desired but is suspicious.",
+    "attachments": {
+      "classSimpleName": "CouldNotGenerateValueException",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException is part of the API",
+      "package": "org.junit.experimental.theories",
+      "fieldName": "serialVersionUID",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException is part of the API",
+      "elementKind": "field"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method void org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException::<init>(java.lang.Throwable)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "CouldNotGenerateValueException",
+      "methodName": "<init>",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "constructor"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedRemoved",
+    "oldElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithCompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.InstantiationException, java.lang.IllegalAccessException, java.lang.reflect.InvocationTargetException, java.lang.NoSuchMethodException, java.lang.Throwable",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithCompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.Throwable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer throws checked exceptions: java.lang.IllegalAccessException.",
+    "attachments": {
+      "exception": "java.lang.IllegalAccessException",
+      "classSimpleName": "TheoryAnchor",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method",
+      "methodName": "runWithCompleteAssignment",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedRemoved",
+    "oldElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithCompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.InstantiationException, java.lang.IllegalAccessException, java.lang.reflect.InvocationTargetException, java.lang.NoSuchMethodException, java.lang.Throwable",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithCompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.Throwable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer throws checked exceptions: java.lang.InstantiationException.",
+    "attachments": {
+      "exception": "java.lang.InstantiationException",
+      "classSimpleName": "TheoryAnchor",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method",
+      "methodName": "runWithCompleteAssignment",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedRemoved",
+    "oldElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithCompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.InstantiationException, java.lang.IllegalAccessException, java.lang.reflect.InvocationTargetException, java.lang.NoSuchMethodException, java.lang.Throwable",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithCompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.Throwable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer throws checked exceptions: java.lang.NoSuchMethodException.",
+    "attachments": {
+      "exception": "java.lang.NoSuchMethodException",
+      "classSimpleName": "TheoryAnchor",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method",
+      "methodName": "runWithCompleteAssignment",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedRemoved",
+    "oldElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithCompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.InstantiationException, java.lang.IllegalAccessException, java.lang.reflect.InvocationTargetException, java.lang.NoSuchMethodException, java.lang.Throwable",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithCompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.Throwable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer throws checked exceptions: java.lang.reflect.InvocationTargetException.",
+    "attachments": {
+      "exception": "java.lang.reflect.InvocationTargetException",
+      "classSimpleName": "TheoryAnchor",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method",
+      "methodName": "runWithCompleteAssignment",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedRemoved",
+    "oldElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithIncompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.InstantiationException, java.lang.IllegalAccessException, java.lang.Throwable",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithIncompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.Throwable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer throws checked exceptions: java.lang.IllegalAccessException.",
+    "attachments": {
+      "exception": "java.lang.IllegalAccessException",
+      "classSimpleName": "TheoryAnchor",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method",
+      "methodName": "runWithIncompleteAssignment",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedRemoved",
+    "oldElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithIncompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.InstantiationException, java.lang.IllegalAccessException, java.lang.Throwable",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.experimental.theories.Theories.TheoryAnchor::runWithIncompleteAssignment(org.junit.experimental.theories.internal.Assignments) throws java.lang.Throwable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer throws checked exceptions: java.lang.InstantiationException.",
+    "attachments": {
+      "exception": "java.lang.InstantiationException",
+      "classSimpleName": "TheoryAnchor",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "method",
+      "methodName": "runWithIncompleteAssignment",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.Theories.TheoryAnchor is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::possiblyExpectingExceptions(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.experimental.theories.Theories",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::possiblyExpectingExceptions(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.experimental.theories.Theories",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.Theories is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.Theories is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withAfters(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.experimental.theories.Theories",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withAfters(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.experimental.theories.Theories",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.Theories is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.Theories is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withBefores(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.experimental.theories.Theories",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withBefores(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.experimental.theories.Theories",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.Theories is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.Theories is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.annotation.added",
+    "oldElement": "@interface org.junit.experimental.theories.Theory",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "@interface org.junit.experimental.theories.Theory",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Element newly annotated with 'java.lang.annotation.Target'.",
+    "attachments": {
+      "annotation": "@java.lang.annotation.Target({java.lang.annotation.ElementType.METHOD})",
+      "classSimpleName": "Theory",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.theories.Theory is part of the API",
+      "package": "org.junit.experimental.theories",
+      "elementKind": "@interface",
+      "annotationType": "java.lang.annotation.Target",
+      "exampleUseChainInOldApi": "@interface org.junit.experimental.theories.Theory is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.util.Collection<java.lang.reflect.Field> org.junit.experimental.theories.internal.AllMembersSupplier::getDataPointsFields(org.junit.experimental.theories.ParameterSignature)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "AllMembersSupplier",
+      "methodName": "getDataPointsFields",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.AllMembersSupplier is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.util.Collection<org.junit.runners.model.FrameworkMethod> org.junit.experimental.theories.internal.AllMembersSupplier::getDataPointsMethods(org.junit.experimental.theories.ParameterSignature)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "AllMembersSupplier",
+      "methodName": "getDataPointsMethods",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.AllMembersSupplier is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.util.Collection<java.lang.reflect.Field> org.junit.experimental.theories.internal.AllMembersSupplier::getSingleDataPointFields(org.junit.experimental.theories.ParameterSignature)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "AllMembersSupplier",
+      "methodName": "getSingleDataPointFields",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.AllMembersSupplier is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.util.Collection<org.junit.runners.model.FrameworkMethod> org.junit.experimental.theories.internal.AllMembersSupplier::getSingleDataPointMethods(org.junit.experimental.theories.ParameterSignature)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "AllMembersSupplier",
+      "methodName": "getSingleDataPointMethods",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.AllMembersSupplier is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedAdded",
+    "oldElement": "method java.util.List<org.junit.experimental.theories.PotentialAssignment> org.junit.experimental.theories.internal.AllMembersSupplier::getValueSources(org.junit.experimental.theories.ParameterSignature)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.util.List<org.junit.experimental.theories.PotentialAssignment> org.junit.experimental.theories.internal.AllMembersSupplier::getValueSources(org.junit.experimental.theories.ParameterSignature) throws java.lang.Throwable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method newly throws checked exceptions: java.lang.Throwable.",
+    "attachments": {
+      "exception": "java.lang.Throwable",
+      "classSimpleName": "AllMembersSupplier",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.AllMembersSupplier is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "method",
+      "methodName": "getValueSources",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.AllMembersSupplier is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedRemoved",
+    "oldElement": "method org.junit.experimental.theories.internal.Assignments org.junit.experimental.theories.internal.Assignments::allUnassigned(java.lang.reflect.Method, org.junit.runners.model.TestClass) throws java.lang.Exception",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.experimental.theories.internal.Assignments org.junit.experimental.theories.internal.Assignments::allUnassigned(java.lang.reflect.Method, org.junit.runners.model.TestClass)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer throws checked exceptions: java.lang.Exception.",
+    "attachments": {
+      "exception": "java.lang.Exception",
+      "classSimpleName": "Assignments",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "method",
+      "methodName": "allUnassigned",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.Assignments is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.numberOfParametersChanged",
+    "oldElement": "method java.lang.Object[] org.junit.experimental.theories.internal.Assignments::getActualValues(int, int, boolean) throws org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.lang.Object[] org.junit.experimental.theories.internal.Assignments::getActualValues(int, int) throws org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The number of parameters of the method have changed.",
+    "attachments": {
+      "classSimpleName": "Assignments",
+      "methodName": "getActualValues",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.numberOfParametersChanged",
+    "oldElement": "method java.lang.Object[] org.junit.experimental.theories.internal.Assignments::getAllArguments(boolean) throws org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.lang.Object[] org.junit.experimental.theories.internal.Assignments::getAllArguments() throws org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The number of parameters of the method have changed.",
+    "attachments": {
+      "classSimpleName": "Assignments",
+      "methodName": "getAllArguments",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method org.junit.experimental.theories.ParameterSupplier org.junit.experimental.theories.internal.Assignments::getAnnotatedSupplier(org.junit.experimental.theories.ParameterSignature) throws java.lang.InstantiationException, java.lang.IllegalAccessException",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "Assignments",
+      "methodName": "getAnnotatedSupplier",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.numberOfParametersChanged",
+    "oldElement": "method java.lang.Object[] org.junit.experimental.theories.internal.Assignments::getConstructorArguments(boolean) throws org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.lang.Object[] org.junit.experimental.theories.internal.Assignments::getConstructorArguments() throws org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The number of parameters of the method have changed.",
+    "attachments": {
+      "classSimpleName": "Assignments",
+      "methodName": "getConstructorArguments",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.numberOfParametersChanged",
+    "oldElement": "method java.lang.Object[] org.junit.experimental.theories.internal.Assignments::getMethodArguments(boolean) throws org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.lang.Object[] org.junit.experimental.theories.internal.Assignments::getMethodArguments() throws org.junit.experimental.theories.PotentialAssignment.CouldNotGenerateValueException",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The number of parameters of the method have changed.",
+    "attachments": {
+      "classSimpleName": "Assignments",
+      "methodName": "getMethodArguments",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.visibilityReduced",
+    "oldElement": "method org.junit.experimental.theories.ParameterSupplier org.junit.experimental.theories.internal.Assignments::getSupplier(org.junit.experimental.theories.ParameterSignature) throws java.lang.InstantiationException, java.lang.IllegalAccessException",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.experimental.theories.ParameterSupplier org.junit.experimental.theories.internal.Assignments::getSupplier(org.junit.experimental.theories.ParameterSignature) throws java.lang.Exception",
+    "newElementModule": "junit:junit:4.12",
+    "description": "visibility reduced",
+    "attachments": {
+      "classSimpleName": "Assignments",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "oldVisibility": "public",
+      "elementKind": "method",
+      "newVisibility": "private",
+      "methodName": "getSupplier",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.Assignments is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedAdded",
+    "oldElement": "method java.util.List<org.junit.experimental.theories.PotentialAssignment> org.junit.experimental.theories.internal.Assignments::potentialsForNextUnassigned() throws java.lang.InstantiationException, java.lang.IllegalAccessException",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.util.List<org.junit.experimental.theories.PotentialAssignment> org.junit.experimental.theories.internal.Assignments::potentialsForNextUnassigned() throws java.lang.Throwable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method newly throws checked exceptions: java.lang.Throwable.",
+    "attachments": {
+      "exception": "java.lang.Throwable",
+      "classSimpleName": "Assignments",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "method",
+      "methodName": "potentialsForNextUnassigned",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.Assignments is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedRemoved",
+    "oldElement": "method java.util.List<org.junit.experimental.theories.PotentialAssignment> org.junit.experimental.theories.internal.Assignments::potentialsForNextUnassigned() throws java.lang.InstantiationException, java.lang.IllegalAccessException",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.util.List<org.junit.experimental.theories.PotentialAssignment> org.junit.experimental.theories.internal.Assignments::potentialsForNextUnassigned() throws java.lang.Throwable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer throws checked exceptions: java.lang.IllegalAccessException.",
+    "attachments": {
+      "exception": "java.lang.IllegalAccessException",
+      "classSimpleName": "Assignments",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "method",
+      "methodName": "potentialsForNextUnassigned",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.Assignments is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedRemoved",
+    "oldElement": "method java.util.List<org.junit.experimental.theories.PotentialAssignment> org.junit.experimental.theories.internal.Assignments::potentialsForNextUnassigned() throws java.lang.InstantiationException, java.lang.IllegalAccessException",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.util.List<org.junit.experimental.theories.PotentialAssignment> org.junit.experimental.theories.internal.Assignments::potentialsForNextUnassigned() throws java.lang.Throwable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer throws checked exceptions: java.lang.InstantiationException.",
+    "attachments": {
+      "exception": "java.lang.InstantiationException",
+      "classSimpleName": "Assignments",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.Assignments is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "method",
+      "methodName": "potentialsForNextUnassigned",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.Assignments is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.experimental.theories.internal.BooleanSupplier",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "BooleanSupplier",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.BooleanSupplier is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.experimental.theories.internal.EnumSupplier",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "EnumSupplier",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.EnumSupplier is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.field.serialVersionUIDUnchanged",
+    "oldElement": "field org.junit.experimental.theories.internal.ParameterizedAssertionError.serialVersionUID",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "field org.junit.experimental.theories.internal.ParameterizedAssertionError.serialVersionUID",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The class changed in an incompatible way with regards to serialization but the serialVersionUID field stayed unchanged. This might be ok and\/or desired but is suspicious.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "fieldName": "serialVersionUID",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "field"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method void java.lang.Throwable::addSuppressed(java.lang.Throwable) @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "addSuppressed",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method java.lang.Object java.lang.Object::clone() throws java.lang.CloneNotSupportedException @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "clone",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method java.lang.Throwable java.lang.Throwable::fillInStackTrace() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "fillInStackTrace",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method void java.lang.Object::finalize() throws java.lang.Throwable @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "finalize",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method java.lang.Throwable java.lang.Throwable::getCause() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "getCause",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method java.lang.Class<?> java.lang.Object::getClass() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "getClass",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method java.lang.String java.lang.Throwable::getLocalizedMessage() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "getLocalizedMessage",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method java.lang.String java.lang.Throwable::getMessage() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "getMessage",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method java.lang.StackTraceElement[] java.lang.Throwable::getStackTrace() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "getStackTrace",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method java.lang.Throwable[] java.lang.Throwable::getSuppressed() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "getSuppressed",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.inheritedMovedToClass",
+    "oldElement": "method int java.lang.Object::hashCode() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": "method int org.junit.experimental.theories.internal.ParameterizedAssertionError::hashCode()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.junit.experimental.theories.internal.ParameterizedAssertionError'.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "newClass": "org.junit.experimental.theories.internal.ParameterizedAssertionError",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "method",
+      "methodName": "hashCode",
+      "oldClass": "java.lang.Object",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method java.lang.Throwable java.lang.Throwable::initCause(java.lang.Throwable) @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "initCause",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method void java.lang.Object::notify() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "notify",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method void java.lang.Object::notifyAll() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "notifyAll",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method void java.lang.Throwable::printStackTrace() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "printStackTrace",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method void java.lang.Throwable::printStackTrace(java.io.PrintStream) @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "printStackTrace",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method void java.lang.Throwable::printStackTrace(java.io.PrintWriter) @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "printStackTrace",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method void java.lang.Throwable::setStackTrace(java.lang.StackTraceElement[]) @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "setStackTrace",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method java.lang.String java.lang.Throwable::toString() @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "toString",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method void java.lang.Object::wait() throws java.lang.InterruptedException @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "wait",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method void java.lang.Object::wait(long) throws java.lang.InterruptedException @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "wait",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.removed",
+    "oldElement": "method void java.lang.Object::wait(long, int) throws java.lang.InterruptedException @ org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "<system classpath>",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Method was removed.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "methodName": "wait",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.class.noLongerInheritsFromClass",
+    "oldElement": "class org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "class org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class no longer inherits from 'java.lang.Exception'.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "superClass": "java.lang.Exception",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.class.nonFinalClassInheritsFromNewClass",
+    "oldElement": "class org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "class org.junit.experimental.theories.internal.ParameterizedAssertionError",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Non-final class now inherits from 'java.lang.AssertionError'.",
+    "attachments": {
+      "classSimpleName": "ParameterizedAssertionError",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "exampleUseChainInOldApi": "class org.junit.experimental.theories.internal.ParameterizedAssertionError is part of the API",
+      "superClass": "java.lang.AssertionError",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "POTENTIALLY_BREAKING",
+      "BINARY": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.experimental.theories.internal.SpecificDataPointsSupplier",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "SpecificDataPointsSupplier",
+      "exampleUseChainInNewApi": "class org.junit.experimental.theories.internal.SpecificDataPointsSupplier is part of the API",
+      "package": "org.junit.experimental.theories.internal",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.annotation.added",
+    "oldElement": "@interface org.junit.experimental.theories.suppliers.TestedOn",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "@interface org.junit.experimental.theories.suppliers.TestedOn",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Element newly annotated with 'java.lang.annotation.Target'.",
+    "attachments": {
+      "annotation": "@java.lang.annotation.Target({java.lang.annotation.ElementType.PARAMETER})",
+      "classSimpleName": "TestedOn",
+      "exampleUseChainInNewApi": "@interface org.junit.experimental.theories.suppliers.TestedOn is part of the API",
+      "package": "org.junit.experimental.theories.suppliers",
+      "elementKind": "@interface",
+      "annotationType": "java.lang.annotation.Target",
+      "exampleUseChainInOldApi": "@interface org.junit.experimental.theories.suppliers.TestedOn is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.field.serialVersionUIDUnchanged",
+    "oldElement": "field org.junit.internal.ArrayComparisonFailure.serialVersionUID",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "field org.junit.internal.ArrayComparisonFailure.serialVersionUID",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The class changed in an incompatible way with regards to serialization but the serialVersionUID field stayed unchanged. This might be ok and\/or desired but is suspicious.",
+    "attachments": {
+      "classSimpleName": "ArrayComparisonFailure",
+      "exampleUseChainInNewApi": "class org.junit.internal.ArrayComparisonFailure is part of the API",
+      "package": "org.junit.internal",
+      "fieldName": "serialVersionUID",
+      "exampleUseChainInOldApi": "class org.junit.internal.ArrayComparisonFailure is part of the API",
+      "elementKind": "field"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.element.nowDeprecated",
+    "oldElement": "method void org.junit.internal.AssumptionViolatedException::<init>(java.lang.Object, org.hamcrest.Matcher<?>)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.internal.AssumptionViolatedException::<init>(java.lang.Object, org.hamcrest.Matcher<?>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is now deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "classSimpleName": "AssumptionViolatedException",
+      "exampleUseChainInNewApi": "class org.junit.internal.AssumptionViolatedException is part of the API",
+      "package": "org.junit.internal",
+      "elementKind": "constructor",
+      "annotationType": "java.lang.Deprecated",
+      "methodName": "<init>",
+      "exampleUseChainInOldApi": "class org.junit.internal.AssumptionViolatedException is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.nowDeprecated",
+    "oldElement": "method void org.junit.internal.AssumptionViolatedException::<init>(java.lang.String)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.internal.AssumptionViolatedException::<init>(java.lang.String)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is now deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "classSimpleName": "AssumptionViolatedException",
+      "exampleUseChainInNewApi": "class org.junit.internal.AssumptionViolatedException is part of the API",
+      "package": "org.junit.internal",
+      "elementKind": "constructor",
+      "annotationType": "java.lang.Deprecated",
+      "methodName": "<init>",
+      "exampleUseChainInOldApi": "class org.junit.internal.AssumptionViolatedException is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.nowDeprecated",
+    "oldElement": "method void org.junit.internal.AssumptionViolatedException::<init>(java.lang.String, boolean, java.lang.Object, org.hamcrest.Matcher<?>)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.internal.AssumptionViolatedException::<init>(java.lang.String, boolean, java.lang.Object, org.hamcrest.Matcher<?>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is now deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "classSimpleName": "AssumptionViolatedException",
+      "exampleUseChainInNewApi": "class org.junit.internal.AssumptionViolatedException is part of the API",
+      "package": "org.junit.internal",
+      "elementKind": "constructor",
+      "annotationType": "java.lang.Deprecated",
+      "methodName": "<init>",
+      "exampleUseChainInOldApi": "class org.junit.internal.AssumptionViolatedException is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.nowDeprecated",
+    "oldElement": "method void org.junit.internal.AssumptionViolatedException::<init>(java.lang.String, java.lang.Object, org.hamcrest.Matcher<?>)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.internal.AssumptionViolatedException::<init>(java.lang.String, java.lang.Object, org.hamcrest.Matcher<?>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is now deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "classSimpleName": "AssumptionViolatedException",
+      "exampleUseChainInNewApi": "class org.junit.internal.AssumptionViolatedException is part of the API",
+      "package": "org.junit.internal",
+      "elementKind": "constructor",
+      "annotationType": "java.lang.Deprecated",
+      "methodName": "<init>",
+      "exampleUseChainInOldApi": "class org.junit.internal.AssumptionViolatedException is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.nowDeprecated",
+    "oldElement": "method void org.junit.internal.AssumptionViolatedException::<init>(java.lang.String, java.lang.Throwable)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.internal.AssumptionViolatedException::<init>(java.lang.String, java.lang.Throwable)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is now deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "classSimpleName": "AssumptionViolatedException",
+      "exampleUseChainInNewApi": "class org.junit.internal.AssumptionViolatedException is part of the API",
+      "package": "org.junit.internal",
+      "elementKind": "constructor",
+      "annotationType": "java.lang.Deprecated",
+      "methodName": "<init>",
+      "exampleUseChainInOldApi": "class org.junit.internal.AssumptionViolatedException is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.internal.Classes",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "Classes",
+      "exampleUseChainInNewApi": "class org.junit.internal.Classes is part of the API",
+      "package": "org.junit.internal",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.addedToInterface",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method void org.junit.internal.JUnitSystem::exit(int)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added to an interface.",
+    "attachments": {
+      "classSimpleName": "JUnitSystem",
+      "methodName": "exit",
+      "exampleUseChainInNewApi": "interface org.junit.internal.JUnitSystem is part of the API",
+      "package": "org.junit.internal",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.field.nowFinal",
+    "oldElement": "field org.junit.internal.MethodSorter.DEFAULT",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "field org.junit.internal.MethodSorter.DEFAULT",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Field is now final.",
+    "attachments": {
+      "classSimpleName": "MethodSorter",
+      "oldModifiers": "public static",
+      "exampleUseChainInNewApi": "class org.junit.internal.MethodSorter is part of the API",
+      "package": "org.junit.internal",
+      "fieldName": "DEFAULT",
+      "elementKind": "field",
+      "newModifiers": "public static final",
+      "exampleUseChainInOldApi": "class org.junit.internal.MethodSorter is part of the API"
+    },
+    "classification": {
+      "SOURCE": "POTENTIALLY_BREAKING",
+      "BINARY": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.field.nowFinal",
+    "oldElement": "field org.junit.internal.MethodSorter.NAME_ASCENDING",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "field org.junit.internal.MethodSorter.NAME_ASCENDING",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Field is now final.",
+    "attachments": {
+      "classSimpleName": "MethodSorter",
+      "oldModifiers": "public static",
+      "exampleUseChainInNewApi": "class org.junit.internal.MethodSorter is part of the API",
+      "package": "org.junit.internal",
+      "fieldName": "NAME_ASCENDING",
+      "elementKind": "field",
+      "newModifiers": "public static final",
+      "exampleUseChainInOldApi": "class org.junit.internal.MethodSorter is part of the API"
+    },
+    "classification": {
+      "SOURCE": "POTENTIALLY_BREAKING",
+      "BINARY": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method void org.junit.internal.RealSystem::exit(int)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "RealSystem",
+      "methodName": "exit",
+      "exampleUseChainInNewApi": "class org.junit.internal.RealSystem is part of the API",
+      "package": "org.junit.internal",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.internal.Throwables",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "Throwables",
+      "exampleUseChainInNewApi": "class org.junit.internal.Throwables is part of the API",
+      "package": "org.junit.internal",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runner.Request org.junit.runner.Request::errorReport(java.lang.Class<?>, java.lang.Throwable) @ org.junit.internal.requests.ClassRequest",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runner.Request org.junit.runner.Request::errorReport(java.lang.Class<?>, java.lang.Throwable) @ org.junit.internal.requests.ClassRequest",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.internal.requests.ClassRequest is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.internal.requests.ClassRequest is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runner.Request org.junit.runner.Request::errorReport(java.lang.Class<?>, java.lang.Throwable) @ org.junit.internal.requests.FilterRequest",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runner.Request org.junit.runner.Request::errorReport(java.lang.Class<?>, java.lang.Throwable) @ org.junit.internal.requests.FilterRequest",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.internal.requests.FilterRequest is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.internal.requests.FilterRequest is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runner.Request org.junit.runner.Request::errorReport(java.lang.Class<?>, java.lang.Throwable) @ org.junit.internal.requests.SortingRequest",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runner.Request org.junit.runner.Request::errorReport(java.lang.Class<?>, java.lang.Throwable) @ org.junit.internal.requests.SortingRequest",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.internal.requests.SortingRequest is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.internal.requests.SortingRequest is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.class.removed",
+    "oldElement": "enum org.junit.internal.runners.rules.RuleFieldValidator",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": null,
+    "newElementModule": null,
+    "description": "Class was removed.",
+    "attachments": {
+      "classSimpleName": "RuleFieldValidator",
+      "package": "org.junit.internal.runners.rules",
+      "exampleUseChainInOldApi": "enum org.junit.internal.runners.rules.RuleFieldValidator is part of the API",
+      "elementKind": "enum"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.internal.runners.rules.RuleMemberValidator",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "RuleMemberValidator",
+      "exampleUseChainInNewApi": "class org.junit.internal.runners.rules.RuleMemberValidator is part of the API",
+      "package": "org.junit.internal.runners.rules",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.internal.runners.statements.FailOnTimeout.Builder",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "Builder",
+      "exampleUseChainInNewApi": "class org.junit.internal.runners.statements.FailOnTimeout.Builder is part of the API",
+      "package": "org.junit.internal.runners.statements",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.element.nowDeprecated",
+    "oldElement": "method void org.junit.internal.runners.statements.FailOnTimeout::<init>(org.junit.runners.model.Statement, long)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.internal.runners.statements.FailOnTimeout::<init>(org.junit.runners.model.Statement, long)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is now deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "classSimpleName": "FailOnTimeout",
+      "exampleUseChainInNewApi": "class org.junit.internal.runners.statements.FailOnTimeout is part of the API",
+      "package": "org.junit.internal.runners.statements",
+      "elementKind": "constructor",
+      "annotationType": "java.lang.Deprecated",
+      "methodName": "<init>",
+      "exampleUseChainInOldApi": "class org.junit.internal.runners.statements.FailOnTimeout is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.internal.runners.statements.FailOnTimeout.Builder org.junit.internal.runners.statements.FailOnTimeout::builder()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "FailOnTimeout",
+      "methodName": "builder",
+      "exampleUseChainInNewApi": "class org.junit.internal.runners.statements.FailOnTimeout is part of the API",
+      "package": "org.junit.internal.runners.statements",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.rules.DisableOnDebug",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "DisableOnDebug",
+      "exampleUseChainInNewApi": "class org.junit.rules.DisableOnDebug is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.parameterTypeParameterChanged",
+    "oldElement": "parameter java.lang.Object org.junit.rules.ErrorCollector::checkSucceeds(===java.util.concurrent.Callable<java.lang.Object>===)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "parameter <T> T org.junit.rules.ErrorCollector::checkSucceeds(===java.util.concurrent.Callable<T>===)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The type parameter of method parameter changed. The original type was 'java.util.concurrent.Callable<java.lang.Object>'while the new type is 'java.util.concurrent.Callable<T extends java.lang.Object>'.",
+    "attachments": {
+      "classSimpleName": "ErrorCollector",
+      "newType": "java.util.concurrent.Callable<T extends java.lang.Object>",
+      "exampleUseChainInNewApi": "class org.junit.rules.ErrorCollector is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "parameter",
+      "oldType": "java.util.concurrent.Callable<java.lang.Object>",
+      "methodName": "checkSucceeds",
+      "exampleUseChainInOldApi": "class org.junit.rules.ErrorCollector is part of the API",
+      "parameterIndex": "0"
+    },
+    "classification": {
+      "SOURCE": "POTENTIALLY_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.returnTypeTypeParametersChanged",
+    "oldElement": "method java.lang.Object org.junit.rules.ErrorCollector::checkSucceeds(java.util.concurrent.Callable<java.lang.Object>)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method <T> T org.junit.rules.ErrorCollector::checkSucceeds(java.util.concurrent.Callable<T>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The return type changed from 'java.lang.Object' to 'T extends java.lang.Object'.",
+    "attachments": {
+      "classSimpleName": "ErrorCollector",
+      "newType": "T extends java.lang.Object",
+      "exampleUseChainInNewApi": "class org.junit.rules.ErrorCollector is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method",
+      "oldType": "java.lang.Object",
+      "methodName": "checkSucceeds",
+      "exampleUseChainInOldApi": "class org.junit.rules.ErrorCollector is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.generics.elementNowParameterized",
+    "oldElement": "method java.lang.Object org.junit.rules.ErrorCollector::checkSucceeds(java.util.concurrent.Callable<java.lang.Object>)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method <T> T org.junit.rules.ErrorCollector::checkSucceeds(java.util.concurrent.Callable<T>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Element now defines formal type parameters.",
+    "attachments": {
+      "classSimpleName": "ErrorCollector",
+      "methodName": "checkSucceeds",
+      "exampleUseChainInNewApi": "class org.junit.rules.ErrorCollector is part of the API",
+      "package": "org.junit.rules",
+      "exampleUseChainInOldApi": "class org.junit.rules.ErrorCollector is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.generics.formalTypeParameterAdded",
+    "oldElement": "method java.lang.Object org.junit.rules.ErrorCollector::checkSucceeds(java.util.concurrent.Callable<java.lang.Object>)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method <T> T org.junit.rules.ErrorCollector::checkSucceeds(java.util.concurrent.Callable<T>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "A new formal type parameter added to element: 'T'.",
+    "attachments": {
+      "classSimpleName": "ErrorCollector",
+      "methodName": "checkSucceeds",
+      "exampleUseChainInNewApi": "class org.junit.rules.ErrorCollector is part of the API",
+      "package": "org.junit.rules",
+      "exampleUseChainInOldApi": "class org.junit.rules.ErrorCollector is part of the API",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.element.nowDeprecated",
+    "oldElement": "method org.junit.rules.ExpectedException org.junit.rules.ExpectedException::handleAssertionErrors()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.rules.ExpectedException org.junit.rules.ExpectedException::handleAssertionErrors()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is now deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "classSimpleName": "ExpectedException",
+      "exampleUseChainInNewApi": "class org.junit.rules.ExpectedException is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method",
+      "annotationType": "java.lang.Deprecated",
+      "methodName": "handleAssertionErrors",
+      "exampleUseChainInOldApi": "class org.junit.rules.ExpectedException is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.nowDeprecated",
+    "oldElement": "method org.junit.rules.ExpectedException org.junit.rules.ExpectedException::handleAssumptionViolatedExceptions()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.rules.ExpectedException org.junit.rules.ExpectedException::handleAssumptionViolatedExceptions()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is now deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "classSimpleName": "ExpectedException",
+      "exampleUseChainInNewApi": "class org.junit.rules.ExpectedException is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method",
+      "annotationType": "java.lang.Deprecated",
+      "methodName": "handleAssumptionViolatedExceptions",
+      "exampleUseChainInOldApi": "class org.junit.rules.ExpectedException is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.rules.ExpectedException org.junit.rules.ExpectedException::reportMissingExceptionWithMessage(java.lang.String)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "ExpectedException",
+      "methodName": "reportMissingExceptionWithMessage",
+      "exampleUseChainInNewApi": "class org.junit.rules.ExpectedException is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.rules.Stopwatch",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "Stopwatch",
+      "exampleUseChainInNewApi": "class org.junit.rules.Stopwatch is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.element.nowDeprecated",
+    "oldElement": "method void org.junit.rules.TestWatcher::skipped(org.junit.internal.AssumptionViolatedException, org.junit.runner.Description) @ org.junit.rules.TestName",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.rules.TestWatcher::skipped(org.junit.internal.AssumptionViolatedException, org.junit.runner.Description) @ org.junit.rules.TestName",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is now deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "classSimpleName": "TestName",
+      "exampleUseChainInNewApi": "class org.junit.rules.TestName is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method",
+      "annotationType": "java.lang.Deprecated",
+      "methodName": "skipped",
+      "exampleUseChainInOldApi": "class org.junit.rules.TestName is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.nowDeprecated",
+    "oldElement": "method void org.junit.rules.TestWatcher::skipped(org.junit.internal.AssumptionViolatedException, org.junit.runner.Description)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.rules.TestWatcher::skipped(org.junit.internal.AssumptionViolatedException, org.junit.runner.Description)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is now deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "classSimpleName": "TestWatcher",
+      "exampleUseChainInNewApi": "class org.junit.rules.TestWatcher is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method",
+      "annotationType": "java.lang.Deprecated",
+      "methodName": "skipped",
+      "exampleUseChainInOldApi": "class org.junit.rules.TestWatcher is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method void org.junit.rules.TestWatcher::skipped(org.junit.AssumptionViolatedException, org.junit.runner.Description)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "TestWatcher",
+      "methodName": "skipped",
+      "exampleUseChainInNewApi": "class org.junit.rules.TestWatcher is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.rules.Timeout.Builder",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "Builder",
+      "exampleUseChainInNewApi": "class org.junit.rules.Timeout.Builder is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.element.nowDeprecated",
+    "oldElement": "method void org.junit.rules.Timeout::<init>(int)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.rules.Timeout::<init>(int)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is now deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "classSimpleName": "Timeout",
+      "exampleUseChainInNewApi": "class org.junit.rules.Timeout is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "constructor",
+      "annotationType": "java.lang.Deprecated",
+      "methodName": "<init>",
+      "exampleUseChainInOldApi": "class org.junit.rules.Timeout is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method void org.junit.rules.Timeout::<init>(long, java.util.concurrent.TimeUnit)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Timeout",
+      "methodName": "<init>",
+      "exampleUseChainInNewApi": "class org.junit.rules.Timeout is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "constructor"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method void org.junit.rules.Timeout::<init>(org.junit.rules.Timeout.Builder)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Timeout",
+      "methodName": "<init>",
+      "exampleUseChainInNewApi": "class org.junit.rules.Timeout is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "constructor"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.rules.Timeout.Builder org.junit.rules.Timeout::builder()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Timeout",
+      "methodName": "builder",
+      "exampleUseChainInNewApi": "class org.junit.rules.Timeout is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.runners.model.Statement org.junit.rules.Timeout::createFailOnTimeoutStatement(org.junit.runners.model.Statement) throws java.lang.Exception",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Timeout",
+      "methodName": "createFailOnTimeoutStatement",
+      "exampleUseChainInNewApi": "class org.junit.rules.Timeout is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.finalMethodAddedToNonFinalClass",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.rules.Timeout::getLookingForStuckThread()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "A final method has been added to an inheritable class.",
+    "attachments": {
+      "classSimpleName": "Timeout",
+      "methodName": "getLookingForStuckThread",
+      "exampleUseChainInNewApi": "class org.junit.rules.Timeout is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "POTENTIALLY_BREAKING",
+      "BINARY": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.finalMethodAddedToNonFinalClass",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method long org.junit.rules.Timeout::getTimeout(java.util.concurrent.TimeUnit)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "A final method has been added to an inheritable class.",
+    "attachments": {
+      "classSimpleName": "Timeout",
+      "methodName": "getTimeout",
+      "exampleUseChainInNewApi": "class org.junit.rules.Timeout is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "POTENTIALLY_BREAKING",
+      "BINARY": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.rules.Timeout org.junit.rules.Timeout::millis(long)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Timeout",
+      "methodName": "millis",
+      "exampleUseChainInNewApi": "class org.junit.rules.Timeout is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.rules.Timeout org.junit.rules.Timeout::seconds(long)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Timeout",
+      "methodName": "seconds",
+      "exampleUseChainInNewApi": "class org.junit.rules.Timeout is part of the API",
+      "package": "org.junit.rules",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.field.serialVersionUIDUnchanged",
+    "oldElement": "field org.junit.runner.Description.serialVersionUID",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "field org.junit.runner.Description.serialVersionUID",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The class changed in an incompatible way with regards to serialization but the serialVersionUID field stayed unchanged. This might be ok and\/or desired but is suspicious.",
+    "attachments": {
+      "classSimpleName": "Description",
+      "exampleUseChainInNewApi": "class org.junit.runner.Description is part of the API",
+      "package": "org.junit.runner",
+      "fieldName": "serialVersionUID",
+      "exampleUseChainInOldApi": "class org.junit.runner.Description is part of the API",
+      "elementKind": "field"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "interface org.junit.runner.FilterFactory",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "FilterFactory",
+      "exampleUseChainInNewApi": "interface org.junit.runner.FilterFactory is part of the API",
+      "package": "org.junit.runner",
+      "elementKind": "interface"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.runner.FilterFactoryParams",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "FilterFactoryParams",
+      "exampleUseChainInNewApi": "class org.junit.runner.FilterFactoryParams is part of the API",
+      "package": "org.junit.runner",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runner.Request org.junit.runner.Request::errorReport(java.lang.Class<?>, java.lang.Throwable)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runner.Request org.junit.runner.Request::errorReport(java.lang.Class<?>, java.lang.Throwable)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.runner.Request is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.runner.Request is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.field.serialVersionUIDUnchanged",
+    "oldElement": "field org.junit.runner.Result.serialVersionUID",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "field org.junit.runner.Result.serialVersionUID",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The class changed in an incompatible way with regards to serialization but the serialVersionUID field stayed unchanged. This might be ok and\/or desired but is suspicious.",
+    "attachments": {
+      "classSimpleName": "Result",
+      "exampleUseChainInNewApi": "class org.junit.runner.Result is part of the API",
+      "package": "org.junit.runner",
+      "fieldName": "serialVersionUID",
+      "exampleUseChainInOldApi": "class org.junit.runner.Result is part of the API",
+      "elementKind": "field"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.field.nowFinal",
+    "oldElement": "field org.junit.runner.manipulation.Filter.ALL",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "field org.junit.runner.manipulation.Filter.ALL",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Field is now final.",
+    "attachments": {
+      "classSimpleName": "Filter",
+      "oldModifiers": "public static",
+      "exampleUseChainInNewApi": "class org.junit.runner.manipulation.Filter is part of the API",
+      "package": "org.junit.runner.manipulation",
+      "fieldName": "ALL",
+      "elementKind": "field",
+      "newModifiers": "public static final",
+      "exampleUseChainInOldApi": "class org.junit.runner.manipulation.Filter is part of the API"
+    },
+    "classification": {
+      "SOURCE": "POTENTIALLY_BREAKING",
+      "BINARY": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.field.nowFinal",
+    "oldElement": "field org.junit.runner.manipulation.Sorter.NULL",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "field org.junit.runner.manipulation.Sorter.NULL",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Field is now final.",
+    "attachments": {
+      "classSimpleName": "Sorter",
+      "oldModifiers": "public static",
+      "exampleUseChainInNewApi": "class org.junit.runner.manipulation.Sorter is part of the API",
+      "package": "org.junit.runner.manipulation",
+      "fieldName": "NULL",
+      "elementKind": "field",
+      "newModifiers": "public static final",
+      "exampleUseChainInOldApi": "class org.junit.runner.manipulation.Sorter is part of the API"
+    },
+    "classification": {
+      "SOURCE": "POTENTIALLY_BREAKING",
+      "BINARY": "POTENTIALLY_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "@interface org.junit.runner.notification.RunListener.ThreadSafe",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "ThreadSafe",
+      "exampleUseChainInNewApi": "@interface org.junit.runner.notification.RunListener.ThreadSafe is part of the API",
+      "package": "org.junit.runner.notification",
+      "elementKind": "@interface"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.runners.BlockJUnit4ClassRunner::isIgnored(org.junit.runners.model.FrameworkMethod)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "BlockJUnit4ClassRunner",
+      "methodName": "isIgnored",
+      "exampleUseChainInNewApi": "class org.junit.runners.BlockJUnit4ClassRunner is part of the API",
+      "package": "org.junit.runners",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::possiblyExpectingExceptions(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::possiblyExpectingExceptions(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.runners.BlockJUnit4ClassRunner is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.runners.BlockJUnit4ClassRunner is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withAfters(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withAfters(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.runners.BlockJUnit4ClassRunner is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.runners.BlockJUnit4ClassRunner is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withBefores(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withBefores(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.runners.BlockJUnit4ClassRunner is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.runners.BlockJUnit4ClassRunner is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::possiblyExpectingExceptions(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.runners.JUnit4",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::possiblyExpectingExceptions(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.runners.JUnit4",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.runners.JUnit4 is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.runners.JUnit4 is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withAfters(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.runners.JUnit4",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withAfters(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.runners.JUnit4",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.runners.JUnit4 is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.runners.JUnit4 is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.element.noLongerDeprecated",
+    "oldElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withBefores(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.runners.JUnit4",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runners.model.Statement org.junit.runners.BlockJUnit4ClassRunner::withBefores(org.junit.runners.model.FrameworkMethod, java.lang.Object, org.junit.runners.model.Statement) @ org.junit.runners.JUnit4",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The element is no longer deprecated.",
+    "attachments": {
+      "annotation": "@java.lang.Deprecated",
+      "annotationType": "java.lang.Deprecated",
+      "exampleUseChainInNewApi": "class org.junit.runners.JUnit4 is part of the API",
+      "exampleUseChainInOldApi": "class org.junit.runners.JUnit4 is part of the API",
+      "elementKind": "annotation"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.nowFinalInFinalClass",
+    "oldElement": "method org.junit.runners.MethodSorters[] org.junit.runners.MethodSorters::values()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method org.junit.runners.MethodSorters[] org.junit.runners.MethodSorters::values()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method is now final in a final class.",
+    "attachments": {
+      "classSimpleName": "MethodSorters",
+      "oldModifiers": "public static",
+      "exampleUseChainInNewApi": "enum org.junit.runners.MethodSorters is part of the API",
+      "package": "org.junit.runners",
+      "elementKind": "method",
+      "newModifiers": "public static final",
+      "methodName": "values",
+      "exampleUseChainInOldApi": "enum org.junit.runners.MethodSorters is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "@interface org.junit.runners.Parameterized.UseParametersRunnerFactory",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "UseParametersRunnerFactory",
+      "exampleUseChainInNewApi": "@interface org.junit.runners.Parameterized.UseParametersRunnerFactory is part of the API",
+      "package": "org.junit.runners",
+      "elementKind": "@interface"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.runners.ParentRunner<T>::isIgnored(T) @ org.junit.runners.Parameterized",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Parameterized",
+      "methodName": "isIgnored",
+      "exampleUseChainInNewApi": "class org.junit.runners.Parameterized is part of the API",
+      "package": "org.junit.runners",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method org.junit.runners.model.TestClass org.junit.runners.ParentRunner<T>::createTestClass(java.lang.Class<?>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "ParentRunner",
+      "methodName": "createTestClass",
+      "exampleUseChainInNewApi": "class org.junit.runners.ParentRunner<T extends java.lang.Object> is part of the API",
+      "package": "org.junit.runners",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.runners.ParentRunner<T>::isIgnored(T)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "ParentRunner",
+      "methodName": "isIgnored",
+      "exampleUseChainInNewApi": "class org.junit.runners.ParentRunner<T extends java.lang.Object> is part of the API",
+      "package": "org.junit.runners",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.runners.ParentRunner<T>::isIgnored(T) @ org.junit.runners.Suite",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "Suite",
+      "methodName": "isIgnored",
+      "exampleUseChainInNewApi": "class org.junit.runners.Suite is part of the API",
+      "package": "org.junit.runners",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "interface org.junit.runners.model.Annotatable",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "Annotatable",
+      "exampleUseChainInNewApi": "interface org.junit.runners.model.Annotatable is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "interface"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method <T extends java.lang.annotation.Annotation> T org.junit.runners.model.FrameworkField::getAnnotation(java.lang.Class<T>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "FrameworkField",
+      "methodName": "getAnnotation",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkField is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.lang.Class<?> org.junit.runners.model.FrameworkField::getDeclaringClass()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "FrameworkField",
+      "methodName": "getDeclaringClass",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkField is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method int org.junit.runners.model.FrameworkField::getModifiers()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "FrameworkField",
+      "methodName": "getModifiers",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkField is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.movedToSuperClass",
+    "oldElement": "method boolean org.junit.runners.model.FrameworkField::isPublic()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method boolean org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>::isPublic() @ org.junit.runners.model.FrameworkField",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The method used to be declared in class 'org.junit.runners.model.FrameworkField' but is now declared in superclass 'org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>'.",
+    "attachments": {
+      "classSimpleName": "FrameworkField",
+      "newClass": "org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkField is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "methodName": "isPublic",
+      "oldClass": "org.junit.runners.model.FrameworkField",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.FrameworkField is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.movedToSuperClass",
+    "oldElement": "method boolean org.junit.runners.model.FrameworkField::isStatic()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method boolean org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>::isStatic() @ org.junit.runners.model.FrameworkField",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The method used to be declared in class 'org.junit.runners.model.FrameworkField' but is now declared in superclass 'org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>'.",
+    "attachments": {
+      "classSimpleName": "FrameworkField",
+      "newClass": "org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkField is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "methodName": "isStatic",
+      "oldClass": "org.junit.runners.model.FrameworkField",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.FrameworkField is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.inheritedMovedToClass",
+    "oldElement": "method java.lang.String java.lang.Object::toString() @ org.junit.runners.model.FrameworkField",
+    "oldElementModule": "<system classpath>",
+    "newElement": "method java.lang.String org.junit.runners.model.FrameworkField::toString()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.junit.runners.model.FrameworkField'.",
+    "attachments": {
+      "classSimpleName": "FrameworkField",
+      "newClass": "org.junit.runners.model.FrameworkField",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkField is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "methodName": "toString",
+      "oldClass": "java.lang.Object",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.FrameworkField is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.visibilityIncreased",
+    "oldElement": "method java.lang.annotation.Annotation[] org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>::getAnnotations()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method java.lang.annotation.Annotation[] org.junit.runners.model.Annotatable::getAnnotations() @ org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>",
+    "newElementModule": "junit:junit:4.12",
+    "description": "visibility increased",
+    "attachments": {
+      "classSimpleName": "FrameworkMember",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>> is part of the API",
+      "package": "org.junit.runners.model",
+      "oldVisibility": "package",
+      "elementKind": "method",
+      "newVisibility": "public",
+      "methodName": "getAnnotations",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>> is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.abstractMethodAdded",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.lang.Class<?> org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>::getDeclaringClass()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Abstract method was added.",
+    "attachments": {
+      "classSimpleName": "FrameworkMember",
+      "methodName": "getDeclaringClass",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>> is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.abstractMethodAdded",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method int org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>::getModifiers()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Abstract method was added.",
+    "attachments": {
+      "classSimpleName": "FrameworkMember",
+      "methodName": "getModifiers",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>> is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "BREAKING"
+    }
+  },
+  {
+    "code": "java.method.noLongerAbstract",
+    "oldElement": "method boolean org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>::isPublic()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method boolean org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>::isPublic()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer abstract",
+    "attachments": {
+      "classSimpleName": "FrameworkMember",
+      "oldModifiers": "public abstract",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>> is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "newModifiers": "public",
+      "methodName": "isPublic",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>> is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.noLongerAbstract",
+    "oldElement": "method boolean org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>::isStatic()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method boolean org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>::isStatic()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer abstract",
+    "attachments": {
+      "classSimpleName": "FrameworkMember",
+      "oldModifiers": "public abstract",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>> is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "newModifiers": "public",
+      "methodName": "isStatic",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>> is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.class.nowImplementsInterface",
+    "oldElement": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class now implements interface 'org.junit.runners.model.Annotatable'.",
+    "attachments": {
+      "classSimpleName": "FrameworkMember",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>> is part of the API",
+      "package": "org.junit.runners.model",
+      "interface": "org.junit.runners.model.Annotatable",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>> is part of the API",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.lang.Class<?> org.junit.runners.model.FrameworkMethod::getDeclaringClass()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "FrameworkMethod",
+      "methodName": "getDeclaringClass",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkMethod is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method int org.junit.runners.model.FrameworkMethod::getModifiers()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "FrameworkMethod",
+      "methodName": "getModifiers",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkMethod is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.movedToSuperClass",
+    "oldElement": "method boolean org.junit.runners.model.FrameworkMethod::isPublic()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method boolean org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>::isPublic() @ org.junit.runners.model.FrameworkMethod",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The method used to be declared in class 'org.junit.runners.model.FrameworkMethod' but is now declared in superclass 'org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>'.",
+    "attachments": {
+      "classSimpleName": "FrameworkMethod",
+      "newClass": "org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkMethod is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "methodName": "isPublic",
+      "oldClass": "org.junit.runners.model.FrameworkMethod",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.FrameworkMethod is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.movedToSuperClass",
+    "oldElement": "method boolean org.junit.runners.model.FrameworkMethod::isStatic()",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method boolean org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>>::isStatic() @ org.junit.runners.model.FrameworkMethod",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The method used to be declared in class 'org.junit.runners.model.FrameworkMethod' but is now declared in superclass 'org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>'.",
+    "attachments": {
+      "classSimpleName": "FrameworkMethod",
+      "newClass": "org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkMethod is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "methodName": "isStatic",
+      "oldClass": "org.junit.runners.model.FrameworkMethod",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.FrameworkMethod is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.inheritedMovedToClass",
+    "oldElement": "method java.lang.String java.lang.Object::toString() @ org.junit.runners.model.FrameworkMethod",
+    "oldElementModule": "<system classpath>",
+    "newElement": "method java.lang.String org.junit.runners.model.FrameworkMethod::toString()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.junit.runners.model.FrameworkMethod'.",
+    "attachments": {
+      "classSimpleName": "FrameworkMethod",
+      "newClass": "org.junit.runners.model.FrameworkMethod",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.FrameworkMethod is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "methodName": "toString",
+      "oldClass": "java.lang.Object",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.FrameworkMethod is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedAdded",
+    "oldElement": "method void org.junit.runners.model.MultipleFailureException::assertEmpty(java.util.List<java.lang.Throwable>) throws java.lang.Throwable",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.runners.model.MultipleFailureException::assertEmpty(java.util.List<java.lang.Throwable>) throws java.lang.Exception",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method newly throws checked exceptions: java.lang.Exception.",
+    "attachments": {
+      "exception": "java.lang.Exception",
+      "classSimpleName": "MultipleFailureException",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.MultipleFailureException is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "methodName": "assertEmpty",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.MultipleFailureException is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.exception.checkedRemoved",
+    "oldElement": "method void org.junit.runners.model.MultipleFailureException::assertEmpty(java.util.List<java.lang.Throwable>) throws java.lang.Throwable",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method void org.junit.runners.model.MultipleFailureException::assertEmpty(java.util.List<java.lang.Throwable>) throws java.lang.Exception",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method no longer throws checked exceptions: java.lang.Throwable.",
+    "attachments": {
+      "exception": "java.lang.Throwable",
+      "classSimpleName": "MultipleFailureException",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.MultipleFailureException is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "methodName": "assertEmpty",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.MultipleFailureException is part of the API"
+    },
+    "classification": {
+      "SOURCE": "BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.visibilityIncreased",
+    "oldElement": "method <T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>> void org.junit.runners.model.TestClass::addToAnnotationLists(T, java.util.Map<java.lang.Class<?>, java.util.List<T>>)",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "method <T extends org.junit.runners.model.FrameworkMember<T extends org.junit.runners.model.FrameworkMember<T>>> void org.junit.runners.model.TestClass::addToAnnotationLists(T, java.util.Map<java.lang.Class<? extends java.lang.annotation.Annotation>, java.util.List<T>>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "visibility increased",
+    "attachments": {
+      "classSimpleName": "TestClass",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.TestClass is part of the API",
+      "package": "org.junit.runners.model",
+      "oldVisibility": "private",
+      "elementKind": "method",
+      "newVisibility": "protected",
+      "methodName": "addToAnnotationLists",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.TestClass is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.inheritedMovedToClass",
+    "oldElement": "method boolean java.lang.Object::equals(java.lang.Object) @ org.junit.runners.model.TestClass",
+    "oldElementModule": "<system classpath>",
+    "newElement": "method boolean org.junit.runners.model.TestClass::equals(java.lang.Object)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.junit.runners.model.TestClass'.",
+    "attachments": {
+      "classSimpleName": "TestClass",
+      "newClass": "org.junit.runners.model.TestClass",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.TestClass is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "methodName": "equals",
+      "oldClass": "java.lang.Object",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.TestClass is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.util.List<org.junit.runners.model.FrameworkField> org.junit.runners.model.TestClass::getAnnotatedFields()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "TestClass",
+      "methodName": "getAnnotatedFields",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.TestClass is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method java.util.List<org.junit.runners.model.FrameworkMethod> org.junit.runners.model.TestClass::getAnnotatedMethods()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "TestClass",
+      "methodName": "getAnnotatedMethods",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.TestClass is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method <T extends java.lang.annotation.Annotation> T org.junit.runners.model.TestClass::getAnnotation(java.lang.Class<T>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "TestClass",
+      "methodName": "getAnnotation",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.TestClass is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.inheritedMovedToClass",
+    "oldElement": "method int java.lang.Object::hashCode() @ org.junit.runners.model.TestClass",
+    "oldElementModule": "<system classpath>",
+    "newElement": "method int org.junit.runners.model.TestClass::hashCode()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "The method was previously declared in superclass 'java.lang.Object' but is now declared in class 'org.junit.runners.model.TestClass'.",
+    "attachments": {
+      "classSimpleName": "TestClass",
+      "newClass": "org.junit.runners.model.TestClass",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.TestClass is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method",
+      "methodName": "hashCode",
+      "oldClass": "java.lang.Object",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.TestClass is part of the API"
+    },
+    "classification": {
+      "SOURCE": "EQUIVALENT",
+      "BINARY": "EQUIVALENT"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method boolean org.junit.runners.model.TestClass::isPublic()",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "TestClass",
+      "methodName": "isPublic",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.TestClass is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.method.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "method void org.junit.runners.model.TestClass::scanAnnotatedMembers(java.util.Map<java.lang.Class<? extends java.lang.annotation.Annotation>, java.util.List<org.junit.runners.model.FrameworkMethod>>, java.util.Map<java.lang.Class<? extends java.lang.annotation.Annotation>, java.util.List<org.junit.runners.model.FrameworkField>>)",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Method was added.",
+    "attachments": {
+      "classSimpleName": "TestClass",
+      "methodName": "scanAnnotatedMembers",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.TestClass is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "method"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.nowImplementsInterface",
+    "oldElement": "class org.junit.runners.model.TestClass",
+    "oldElementModule": "junit:junit:4.11",
+    "newElement": "class org.junit.runners.model.TestClass",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class now implements interface 'org.junit.runners.model.Annotatable'.",
+    "attachments": {
+      "classSimpleName": "TestClass",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.TestClass is part of the API",
+      "package": "org.junit.runners.model",
+      "interface": "org.junit.runners.model.Annotatable",
+      "exampleUseChainInOldApi": "class org.junit.runners.model.TestClass is part of the API",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.runners.model.TestTimedOutException",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "TestTimedOutException",
+      "exampleUseChainInNewApi": "class org.junit.runners.model.TestTimedOutException is part of the API",
+      "package": "org.junit.runners.model",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "BlockJUnit4ClassRunnerWithParameters",
+      "exampleUseChainInNewApi": "class org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters is part of the API",
+      "package": "org.junit.runners.parameterized",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParametersFactory",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "BlockJUnit4ClassRunnerWithParametersFactory",
+      "exampleUseChainInNewApi": "class org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParametersFactory is part of the API",
+      "package": "org.junit.runners.parameterized",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "interface org.junit.runners.parameterized.ParametersRunnerFactory",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "ParametersRunnerFactory",
+      "exampleUseChainInNewApi": "interface org.junit.runners.parameterized.ParametersRunnerFactory is part of the API",
+      "package": "org.junit.runners.parameterized",
+      "elementKind": "interface"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.runners.parameterized.TestWithParameters",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "TestWithParameters",
+      "exampleUseChainInNewApi": "class org.junit.runners.parameterized.TestWithParameters is part of the API",
+      "package": "org.junit.runners.parameterized",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.validator.AnnotationValidator",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "AnnotationValidator",
+      "exampleUseChainInNewApi": "class org.junit.validator.AnnotationValidator is part of the API",
+      "package": "org.junit.validator",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.validator.AnnotationValidatorFactory",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "AnnotationValidatorFactory",
+      "exampleUseChainInNewApi": "class org.junit.validator.AnnotationValidatorFactory is part of the API",
+      "package": "org.junit.validator",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.validator.AnnotationsValidator",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "AnnotationsValidator",
+      "exampleUseChainInNewApi": "class org.junit.validator.AnnotationsValidator is part of the API",
+      "package": "org.junit.validator",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "class org.junit.validator.PublicClassValidator",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "PublicClassValidator",
+      "exampleUseChainInNewApi": "class org.junit.validator.PublicClassValidator is part of the API",
+      "package": "org.junit.validator",
+      "elementKind": "class"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "interface org.junit.validator.TestClassValidator",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "TestClassValidator",
+      "exampleUseChainInNewApi": "interface org.junit.validator.TestClassValidator is part of the API",
+      "package": "org.junit.validator",
+      "elementKind": "interface"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  },
+  {
+    "code": "java.class.added",
+    "oldElement": null,
+    "oldElementModule": null,
+    "newElement": "@interface org.junit.validator.ValidateWith",
+    "newElementModule": "junit:junit:4.12",
+    "description": "Class was added.",
+    "attachments": {
+      "classSimpleName": "ValidateWith",
+      "exampleUseChainInNewApi": "@interface org.junit.validator.ValidateWith is part of the API",
+      "package": "org.junit.validator",
+      "elementKind": "@interface"
+    },
+    "classification": {
+      "SOURCE": "NON_BREAKING",
+      "BINARY": "NON_BREAKING"
+    }
+  }
+]
