@@ -16,6 +16,19 @@
             <tr>
               <td colspan="2" class="element">{{{oldElement}}}</td>
             </tr>
+            {{#indirectlyInOldApi}}
+                <tr>
+                    <th>Example of Use</th>
+                    <td width="100%">
+                      {{#exampleUseChainInOldApi}}
+                        <div class="useChain">{{example}}</div>
+                        {{^last}}
+                        <div class="nextUse">&#8595;</div>
+                        {{/last}}
+                      {{/exampleUseChainInOldApi}}
+                    </td>
+                </tr>
+            {{/indirectlyInOldApi}}
           {{/oldElement}}
           {{#newElement}}
             <tr>
@@ -24,6 +37,19 @@
             <tr>
               <td colspan="2" class="element">{{{newElement}}}</td>
             </tr>
+            {{#indirectlyInNewApi}}
+                <tr>
+                    <th>Example of Use</th>
+                    <td width="100%">
+                      {{#exampleUseChainInNewApi}}
+                        <div class="useChain">{{example}}</div>
+                        {{^last}}
+                        <div class="nextUse">&#8595;</div>
+                        {{/last}}
+                      {{/exampleUseChainInNewApi}}
+                    </td>
+                </tr>
+            {{/indirectlyInNewApi}}
           {{/newElement}}
           <tr>
             <th>Description</th>
@@ -43,10 +69,6 @@
               {{/classification.SEMANTIC}}
             </td>
           </tr>
-          {{#exampleUseChainInOldApi}}
-          {{/exampleUseChainInOldApi}}
-          {{#exampleUseChainInNewApi}}
-          {{/exampleUseChainInNewApi}}
           </tbody>
         </table>
         <hr>

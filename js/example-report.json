@@ -1,5 +1,215 @@
 [
   {
+    "attachments": {
+      "annotation": "@java.lang.FunctionalInterface",
+      "annotationType": "java.lang.FunctionalInterface",
+      "classSimpleName": "Content",
+      "elementKind": "interface",
+      "exampleUseChainInNewApi": "interface org.joox.Content is part of the API",
+      "exampleUseChainInOldApi": "interface org.joox.Content is part of the API",
+      "package": "org.joox"
+    },
+    "classification": {
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "EQUIVALENT",
+      "SOURCE": "EQUIVALENT"
+    },
+    "code": "java.annotation.added",
+    "description": "Element newly annotated with 'java.lang.FunctionalInterface'.",
+    "newElement": "interface org.joox.Content",
+    "newElementModule": "org.jooq:joox:1.6.0",
+    "oldElement": "interface org.joox.Content",
+    "oldElementModule": "org.jooq:joox:1.5.0"
+  },
+  {
+    "attachments": {
+      "annotation": "@java.lang.FunctionalInterface",
+      "annotationType": "java.lang.FunctionalInterface",
+      "classSimpleName": "Each",
+      "elementKind": "interface",
+      "exampleUseChainInNewApi": "interface org.joox.Each is part of the API",
+      "exampleUseChainInOldApi": "interface org.joox.Each is part of the API",
+      "package": "org.joox"
+    },
+    "classification": {
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "EQUIVALENT",
+      "SOURCE": "EQUIVALENT"
+    },
+    "code": "java.annotation.added",
+    "description": "Element newly annotated with 'java.lang.FunctionalInterface'.",
+    "newElement": "interface org.joox.Each",
+    "newElementModule": "org.jooq:joox:1.6.0",
+    "oldElement": "interface org.joox.Each",
+    "oldElementModule": "org.jooq:joox:1.5.0"
+  },
+  {
+    "attachments": {
+      "annotation": "@java.lang.FunctionalInterface",
+      "annotationType": "java.lang.FunctionalInterface",
+      "classSimpleName": "FastFilter",
+      "elementKind": "interface",
+      "exampleUseChainInNewApi": "interface org.joox.FastFilter is part of the API",
+      "exampleUseChainInOldApi": "interface org.joox.FastFilter is part of the API",
+      "package": "org.joox"
+    },
+    "classification": {
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "EQUIVALENT",
+      "SOURCE": "EQUIVALENT"
+    },
+    "code": "java.annotation.added",
+    "description": "Element newly annotated with 'java.lang.FunctionalInterface'.",
+    "newElement": "interface org.joox.FastFilter",
+    "newElementModule": "org.jooq:joox:1.6.0",
+    "oldElement": "interface org.joox.FastFilter",
+    "oldElementModule": "org.jooq:joox:1.5.0"
+  },
+  {
+    "attachments": {
+      "annotation": "@java.lang.FunctionalInterface",
+      "annotationType": "java.lang.FunctionalInterface",
+      "classSimpleName": "Filter",
+      "elementKind": "interface",
+      "exampleUseChainInNewApi": "interface org.joox.Filter is part of the API",
+      "exampleUseChainInOldApi": "interface org.joox.Filter is part of the API",
+      "package": "org.joox"
+    },
+    "classification": {
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "EQUIVALENT",
+      "SOURCE": "EQUIVALENT"
+    },
+    "code": "java.annotation.added",
+    "description": "Element newly annotated with 'java.lang.FunctionalInterface'.",
+    "newElement": "interface org.joox.Filter",
+    "newElementModule": "org.jooq:joox:1.6.0",
+    "oldElement": "interface org.joox.Filter",
+    "oldElementModule": "org.jooq:joox:1.5.0"
+  },
+  {
+    "attachments": {
+      "annotation": "@java.lang.FunctionalInterface",
+      "annotationType": "java.lang.FunctionalInterface",
+      "classSimpleName": "Mapper",
+      "elementKind": "interface",
+      "exampleUseChainInNewApi": "interface org.joox.Mapper<E extends java.lang.Object> is part of the API",
+      "exampleUseChainInOldApi": "interface org.joox.Mapper<E extends java.lang.Object> is part of the API",
+      "package": "org.joox"
+    },
+    "classification": {
+      "BINARY": "EQUIVALENT",
+      "SEMANTIC": "EQUIVALENT",
+      "SOURCE": "EQUIVALENT"
+    },
+    "code": "java.annotation.added",
+    "description": "Element newly annotated with 'java.lang.FunctionalInterface'.",
+    "newElement": "interface org.joox.Mapper<E extends java.lang.Object>",
+    "newElementModule": "org.jooq:joox:1.6.0",
+    "oldElement": "interface org.joox.Mapper<E extends java.lang.Object>",
+    "oldElementModule": "org.jooq:joox:1.5.0"
+  },
+  {
+    "attachments": {
+      "classSimpleName": "ScannerException",
+      "elementKind": "class",
+      "exampleUseChainInNewApi": "org.joox.selector.ScannerException is thrown from method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException (method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException is part of the API)",
+      "exampleUseChainInOldApi": "org.joox.selector.ScannerException is thrown from method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException (method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException is part of the API)",
+      "package": "org.joox.selector"
+    },
+    "classification": {
+      "BINARY": "NON_BREAKING",
+      "SEMANTIC": "BREAKING",
+      "SOURCE": "NON_BREAKING"
+    },
+    "code": "java.class.nonPublicPartOfAPI",
+    "description": "Class 'org.joox.selector.ScannerException' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+    "newElement": "class org.joox.selector.ScannerException",
+    "newElementModule": "org.jooq:joox:1.6.0",
+    "oldElement": "class org.joox.selector.ScannerException",
+    "oldElementModule": "org.jooq:joox:1.5.0"
+  },
+  {
+    "attachments": {
+      "classSimpleName": "Combinator",
+      "elementKind": "enum",
+      "exampleUseChainInNewApi": "field org.joox.selector.Selector.Combinator.ADJACENT_SIBLING has the type org.joox.selector.Selector.Combinator <- org.joox.selector.Selector.Combinator is returned from method org.joox.selector.Selector.Combinator org.joox.selector.Selector::getCombinator() <- org.joox.selector.Selector is used as a type parameter or type variable bound on method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException (method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException is part of the API)",
+      "exampleUseChainInOldApi": "org.joox.selector.Selector.Combinator is returned from method org.joox.selector.Selector.Combinator org.joox.selector.Selector::getCombinator() <- org.joox.selector.Selector is used as a type parameter or type variable bound on method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException (method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException is part of the API)",
+      "package": "org.joox.selector"
+    },
+    "classification": {
+      "BINARY": "NON_BREAKING",
+      "SEMANTIC": "BREAKING",
+      "SOURCE": "NON_BREAKING"
+    },
+    "code": "java.class.nonPublicPartOfAPI",
+    "description": "Class 'org.joox.selector.Selector.Combinator' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+    "newElement": "enum org.joox.selector.Selector.Combinator",
+    "newElementModule": "org.jooq:joox:1.6.0",
+    "oldElement": "enum org.joox.selector.Selector.Combinator",
+    "oldElementModule": "org.jooq:joox:1.5.0"
+  },
+  {
+    "attachments": {
+      "classSimpleName": "Selector",
+      "elementKind": "class",
+      "exampleUseChainInNewApi": "org.joox.selector.Selector is used as a type parameter or type variable bound on method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException (method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException is part of the API)",
+      "exampleUseChainInOldApi": "org.joox.selector.Selector is used as a type parameter or type variable bound on method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException (method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException is part of the API)",
+      "package": "org.joox.selector"
+    },
+    "classification": {
+      "BINARY": "NON_BREAKING",
+      "SEMANTIC": "BREAKING",
+      "SOURCE": "NON_BREAKING"
+    },
+    "code": "java.class.nonPublicPartOfAPI",
+    "description": "Class 'org.joox.selector.Selector' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+    "newElement": "class org.joox.selector.Selector",
+    "newElementModule": "org.jooq:joox:1.6.0",
+    "oldElement": "class org.joox.selector.Selector",
+    "oldElementModule": "org.jooq:joox:1.5.0"
+  },
+  {
+    "attachments": {
+      "classSimpleName": "Type",
+      "elementKind": "enum",
+      "exampleUseChainInNewApi": "org.joox.selector.Specifier.Type is returned from method org.joox.selector.Specifier.Type org.joox.selector.Specifier.Type::valueOf(java.lang.String) <- org.joox.selector.Specifier.Type is returned from method org.joox.selector.Specifier.Type org.joox.selector.Specifier::getType() <- org.joox.selector.Specifier is used as a type parameter or type variable bound on method java.util.List<org.joox.selector.Specifier> org.joox.selector.Selector::getSpecifiers() <- org.joox.selector.Selector is used as a type parameter or type variable bound on method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException (method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException is part of the API)",
+      "exampleUseChainInOldApi": "org.joox.selector.Specifier.Type is returned from method org.joox.selector.Specifier.Type org.joox.selector.Specifier.Type::valueOf(java.lang.String) <- org.joox.selector.Specifier.Type is returned from method org.joox.selector.Specifier.Type org.joox.selector.Specifier::getType() <- org.joox.selector.Specifier is used as a type parameter or type variable bound on method java.util.List<org.joox.selector.Specifier> org.joox.selector.Selector::getSpecifiers() <- org.joox.selector.Selector is used as a type parameter or type variable bound on method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException (method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException is part of the API)",
+      "package": "org.joox.selector"
+    },
+    "classification": {
+      "BINARY": "NON_BREAKING",
+      "SEMANTIC": "BREAKING",
+      "SOURCE": "NON_BREAKING"
+    },
+    "code": "java.class.nonPublicPartOfAPI",
+    "description": "Class 'org.joox.selector.Specifier.Type' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+    "newElement": "enum org.joox.selector.Specifier.Type",
+    "newElementModule": "org.jooq:joox:1.6.0",
+    "oldElement": "enum org.joox.selector.Specifier.Type",
+    "oldElementModule": "org.jooq:joox:1.5.0"
+  },
+  {
+    "attachments": {
+      "classSimpleName": "Specifier",
+      "elementKind": "interface",
+      "exampleUseChainInNewApi": "org.joox.selector.Specifier is used as a type parameter or type variable bound on method java.util.List<org.joox.selector.Specifier> org.joox.selector.Selector::getSpecifiers() <- org.joox.selector.Selector is used as a type parameter or type variable bound on method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException (method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException is part of the API)",
+      "exampleUseChainInOldApi": "org.joox.selector.Specifier is used as a type parameter or type variable bound on method java.util.List<org.joox.selector.Specifier> org.joox.selector.Selector::getSpecifiers() <- org.joox.selector.Selector is used as a type parameter or type variable bound on method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException (method java.util.List<java.util.List<org.joox.selector.Selector>> org.joox.selector.Scanner::scan() throws org.joox.selector.ScannerException is part of the API)",
+      "package": "org.joox.selector"
+    },
+    "classification": {
+      "BINARY": "NON_BREAKING",
+      "SEMANTIC": "BREAKING",
+      "SOURCE": "NON_BREAKING"
+    },
+    "code": "java.class.nonPublicPartOfAPI",
+    "description": "Class 'org.joox.selector.Specifier' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).",
+    "newElement": "interface org.joox.selector.Specifier",
+    "newElementModule": "org.jooq:joox:1.6.0",
+    "oldElement": "interface org.joox.selector.Specifier",
+    "oldElementModule": "org.jooq:joox:1.5.0"
+  },
+  {
     "code": "java.method.abstractMethodAdded",
     "oldElement": null,
     "oldElementModule": null,

@@ -79,32 +79,32 @@ function wireUp() {
 }
 
 function processUrlInput() {
-    if (window.location.search !== undefined && window.location.search !== "") {
-        var keyValues = window.location.search.substring(1).split("&");
-        var queryParams = {};
-        for (var i in keyValues) {
-            var s = keyValues[i];
-            var kv = s.split("=");
-            queryParams[kv[0]] = kv[1];
-        }
-
-        var oldVersion = queryParams["old"];
-        var newVersion = queryParams["new"];
-        var groupId = queryParams["groupId"];
-        var artifactId = queryParams["artifactId"];
-
-        $("#groupId").val(groupId);
-        $("#artifactId").val(artifactId);
-        $("#oldVersion").val(oldVersion);
-        $("#newVersion").val(newVersion);
-
-
-        if (oldVersion !== undefined && newVersion !== undefined && groupId !== undefined && artifactId !== undefined) {
-            var oldArtifact = groupId + ":" + artifactId + ":" + oldVersion;
-            var newArtifact = groupId + ":" + artifactId + ":" + newVersion;
-            apiCheck(oldArtifact, newArtifact);
-        }
+  if (window.location.search !== undefined && window.location.search !== "") {
+    var keyValues = window.location.search.substring(1).split("&");
+    var queryParams = {};
+    for (var i in keyValues) {
+      var s = keyValues[i];
+      var kv = s.split("=");
+      queryParams[kv[0]] = kv[1];
     }
+
+    var oldVersion = queryParams["old"];
+    var newVersion = queryParams["new"];
+    var groupId = queryParams["groupId"];
+    var artifactId = queryParams["artifactId"];
+
+    $("#groupId").val(groupId);
+    $("#artifactId").val(artifactId);
+    $("#oldVersion").val(oldVersion);
+    $("#newVersion").val(newVersion);
+
+
+    if (oldVersion !== undefined && newVersion !== undefined && groupId !== undefined && artifactId !== undefined) {
+      var oldArtifact = groupId + ":" + artifactId + ":" + oldVersion;
+      var newArtifact = groupId + ":" + artifactId + ":" + newVersion;
+      apiCheck(oldArtifact, newArtifact);
+    }
+  }
 }
 
 function isValue(val) {
@@ -178,8 +178,8 @@ function filter_results() {
       }
 
       include = include && (includeDeps
-        || ((isValue(oldModule) && oldModule.startsWith(mainModulePrefix))
-        || (isValue(newModule) && newModule.startsWith(mainModulePrefix))));
+          || ((isValue(oldModule) && oldModule.startsWith(mainModulePrefix))
+              || (isValue(newModule) && newModule.startsWith(mainModulePrefix))));
     }
 
     if (!include) {
@@ -247,15 +247,15 @@ function apiCheck(oldArtifact, newArtifact) {
       } else {
         switch (xhr.status) {
           case 502: case 503: case 504:
-            message = "Backend temporarily unavailable.";
-            break;
+          message = "Backend temporarily unavailable.";
+          break;
           default:
             message = "Backend returned HTTP error status: " + xhr.status;
         }
       }
 
       $("#results").html("<h5>Error</h5>" +
-        "<div class='row'><pre class='left'>" + message + "</pre></div>");
+          "<div class='row'><pre class='left'>" + message + "</pre></div>");
     },
     "converters": {
       "text json": true
@@ -374,6 +374,24 @@ function transformResultsByClass(diffs) {
       }
     }
     d["maxSeverity"] = maxSeverity;
+
+    var indirectUseSuffix = "API)";
+
+    d["indirectlyInOldApi"] = false;
+    if (d["attachments"]["exampleUseChainInOldApi"].substr(-indirectUseSuffix.length) === indirectUseSuffix) {
+      var ex = d["attachments"]["exampleUseChainInOldApi"].split(" <- ").map(function (c) { return {"example" : c}});
+      ex[ex.length - 1].last = true;
+      d["exampleUseChainInOldApi"] = ex;
+      d["indirectlyInOldApi"] = true;
+    }
+
+    d["directlyInNewApi"] = false;
+    if (d["attachments"]["exampleUseChainInNewApi"].substr(-indirectUseSuffix.length) === indirectUseSuffix) {
+      ex = d["attachments"]["exampleUseChainInNewApi"].split(" <- ").map(function (c) { return {"example" : c}});
+      ex[ex.length - 1].last = true;
+      d["exampleUseChainInNewApi"] = ex;
+      d["indirectlyInNewApi"] = true;
+    }
 
     classDiffs.push(d);
   });
@@ -508,7 +526,7 @@ function typeToHtml(type, cssClass) {
   }
 
   return "<span class='" + cssClass + "'>" + type["type"] + typeParametersToHtml(type["typeParameters"])
-    + (new Array(1 + type["arrayDimension"]).join("[]")) + "</span>";
+      + (new Array(1 + type["arrayDimension"]).join("[]")) + "</span>";
 }
 
 function parametersToHtml(parameters, highlightIndex) {
