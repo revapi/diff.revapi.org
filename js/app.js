@@ -378,16 +378,19 @@ function transformResultsByClass(diffs) {
     var indirectUseSuffix = "API)";
 
     d["indirectlyInOldApi"] = false;
-    if (d["attachments"]["exampleUseChainInOldApi"].substr(-indirectUseSuffix.length) === indirectUseSuffix) {
-      var ex = d["attachments"]["exampleUseChainInOldApi"].split(" <- ").map(function (c) { return {"example" : c}});
+    var oldExample = d["attachments"]["exampleUseChainInOldApi"];
+
+    if (oldExample !== undefined && oldExample.substr(-indirectUseSuffix.length) === indirectUseSuffix) {
+      var ex = oldExample.split(" <- ").map(function (c) { return {"example" : c}});
       ex[ex.length - 1].last = true;
       d["exampleUseChainInOldApi"] = ex;
       d["indirectlyInOldApi"] = true;
     }
 
     d["directlyInNewApi"] = false;
-    if (d["attachments"]["exampleUseChainInNewApi"].substr(-indirectUseSuffix.length) === indirectUseSuffix) {
-      ex = d["attachments"]["exampleUseChainInNewApi"].split(" <- ").map(function (c) { return {"example" : c}});
+    var newExample = d["attachments"]["exampleUseChainInNewApi"];
+    if (newExample !== undefined && newExample.substr(-indirectUseSuffix.length) === indirectUseSuffix) {
+      ex = newExample.split(" <- ").map(function (c) { return {"example" : c}});
       ex[ex.length - 1].last = true;
       d["exampleUseChainInNewApi"] = ex;
       d["indirectlyInNewApi"] = true;
