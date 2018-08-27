@@ -45,6 +45,10 @@ label[for] {
   margin-left: 0.2rem;
 }
 
+.social {
+  font-family: FontAwesome;
+}
+
 .middle {
   text-align: center;
 }
