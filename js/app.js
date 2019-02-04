@@ -39,6 +39,10 @@ function wireUp() {
 
     window.history.pushState({}, "", l);
 
+    if (fathom !== undefined) {
+      fathom('trackPageview');
+    }
+
     return false;
   });
 
